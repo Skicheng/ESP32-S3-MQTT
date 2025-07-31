@@ -2,14 +2,14 @@
 #include <PubSubClient.h>
 
 // WiFi配置
-const char* ssid = "DFRobot-guest";
-const char* password = "dfrobot@2017";
+const char* ssid = "******";
+const char* password = "******";
 
 // MQTT配置
-const char* mqtt_server = "192.168.9.40";   // 服务器地址/IP
+const char* mqtt_server = "******";   // 服务器地址/IP
 const int mqtt_port = 1883;                     // 默认端口1883（无加密）
-const char* mqtt_user = "siot";        // MQTT用户名
-const char* mqtt_pass = "dfrobot";        // MQTT密码
+const char* mqtt_user = "******";        // MQTT用户名
+const char* mqtt_pass = "******";        // MQTT密码
 const char* clientID = "ESP32S3_Client";        // 客户端ID
 
 // 订阅主题和发布主题
